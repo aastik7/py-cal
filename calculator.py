@@ -26,31 +26,31 @@ print(" A. Addition \n B. Subtraction \n C. Divisoin \n D. Division \n E. Exit "
 while True:
     choice = input("Input your choice: ")
 
-    if choice == "a" or choice == "A": 
+    if choice.lower() == "a": 
         print ("Addition")
         a = int(input("Input the first number = "))
         b = int(input("Input the second number = "))
         add(a,b)
     
-    elif choice == "b" or choice == "B": 
+    elif choice.lower() == "b": 
         print ("Subtraction")
         a = int(input("Input the first number = "))
         b = int(input("Input the second number = "))
         sub(a,b)
 
-    elif choice == "c" or choice == "C": 
+    elif choice.lower() == "c": 
         print ("Division")
         a = int(input("Input the first number = "))
         b = int(input("Input the second number = "))
         div(a,b)
 
-    elif choice == "d" or choice == "D": 
+    elif choice.lower() == "d": 
         print ("Multiplication")
         a = int(input("Input the first number = "))
         b = int(input("Input the second number = "))
         mult(a,b)
 
-    elif choice == "e" or choice == "E":
+    elif choice.lower() == "e":
         print("Exited")
         break
 
