@@ -21,7 +21,7 @@ def mult(a,b):
     print (str(a) + "*" + str(b) + "=" + str (answer))
 
 
-print(" A. Addition \n B. Subtraction \n C. Divisoin \n D. Division \n E. Exit ")
+print(" A. Addition \n B. Subtraction \n C. Division \n D. Division \n E. Exit ")
 
 while True:
     choice = input("Input your choice: ")
