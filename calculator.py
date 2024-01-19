@@ -19,7 +19,7 @@ def div(a,b):
 def mult(a,b):
     answer = a*b 
     print (str(a) + "*" + str(b) + "=" + str (answer))
-
+ 
 
 print(" A. Addition \n B. Subtraction \n C. Division \n D. Division \n E. Exit ")
 
@@ -56,3 +56,6 @@ while True:
 
     else:
         print("Invalid input: Please choose a valid option (A,B,C,D,E)")
+
+
+#Float
