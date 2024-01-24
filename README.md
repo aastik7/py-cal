@@ -27,3 +27,10 @@ A basic Python script that performs addition, subtraction, multiplication, and d
 
    ```bash
    git clone https://github.com/aastik7/py-cal
+
+2. Navigate to the project directory
+
+   ```bash
+   cd simple-calculator
+   python calculator.py
+
