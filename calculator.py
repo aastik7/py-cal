@@ -58,4 +58,3 @@ while True:
         print("Invalid input: Please choose a valid option (A,B,C,D,E)")
 
 
-#Float
